@@ -1,0 +1,1 @@
+//enum LocationServiceState { ON, OFF }

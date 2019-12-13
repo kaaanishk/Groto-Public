@@ -1,0 +1,61 @@
+name: groto
+description: Grocery Today
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.5.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  app_settings: ^1.0.6+2
+  async: ^2.3.0
+  cached_network_image: ^1.1.2
+  cloud_firestore: ^0.12.9+5
+  connectivity: ^0.4.5+2
+  cupertino_icons: ^0.1.2
+  firebase_auth: ^0.14.0+5
+  #  flutter_secure_storage: ^3.3.1+1
+  geoflutterfire: ^2.0.3+5
+  geolocator: ^5.1.4+2
+  google_maps_flutter: ^0.5.21+8
+  http: ^0.12.0+2
+  location_permissions: ^2.0.3
+  provider: ^3.1.0+1
+  shared_preferences: ^0.5.4+3
+  url_launcher: ^5.2.5
+#
+
+
+
+dev_dependencies:
+  flutter_driver:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  test: ^1.0.0
+  mockito: 4.1.1
+  flutter_launcher_icons: ^0.7.4
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+  adaptive_icon_foreground: "assets/icon/icon.png"
+
+flutter:
+  assets:
+    - assets/
+  fonts:
+    - family: NotoSerif
+      fonts:
+        - asset: fonts/NotoSerif-Bold.ttf
+          weight: 200
+        - asset: fonts/NotoSerif-BoldItalic.ttf
+        - asset: fonts/NotoSerif-Regular.ttf
+        - asset: fonts/NotoSerif-RegularItalic.ttf
+
+
+  uses-material-design: true
+
